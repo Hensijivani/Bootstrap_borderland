@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    top: 50px;
+    left: 90%;
+    color: white !important;
+    border-color: rgba(255, 255, 255, 0.6) !important ;
+}
+.black{
+    top: 50px;
+    left: 50px;
+    /* position: absolute; */
+}
+.logo{
+    top: 103px;
+    margin-left: 630px;
+    /* position: absolute; */
+}
+.background{
+    width: 96.5%;
+    /* position: relative; */
+     margin-top: 25px;
+    margin-right: 25px;
+     margin-left: 25px;
+}
+.service{
+    font-family: dancing script;
+    font-size: 50px;
+}
+.icon-name{
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon-about{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #888;
+}
+.pt{
+    padding-top: 40px;
+}
+
+.w-background{
+    background-color: #eae8e8;
+    width: 96.5%;
+    margin-right: 25px;
+     margin-left: 25px;
+    height: 1400px;
+}
+.slider{
+    /* position: relative; */
+    padding-top: 40px;
+}
+.col-4{
+    font-size: 25px;
+    font-family: dancing script;
+    color: black;
+
+}
+.line{
+    width: 30px;
+    height: 1px;
+    background-color: #222222;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 17px 0 19px 0;
+}
+.about{
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+}
+.talant{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+    color: #888888;
+    font-weight: 600;
+}
+.heading{
+    font-size: 45px;
+}
+.heading-about{
+    color: #888888;
+}
+.container{
+    max-width: 1140px !important;
+}
+.man{
+    border-radius: 50%;
+}
+.man-p{
+    color: #686767;
+}
+.man-about{
+    color: #3E3E3E;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer{
+    font-size: 25px;
+    font-family: dancing script;
+    color: white;
+    top: 80px;
+}
+.logo-footer{
+    margin-left: 43%;
+    top: 80px;
+}
+.background-footer{
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background-size: cover;
+    height: 45%;
+    width: 96.5%;
+}
+.footer-sen{
+    color: white;
+    top: 180px ;
+}
+
+@media screen  and (max-width:1024px) {
+    .logo{
+        top: 15%;
+        width: 150px;
+        right: 25px;
+    }
+    .w-background{
+        height: 1150px;
+    }
+    .footer{
+        text-align: center;
+        font-size: 20px;
+        right: 1%;
+    }
+    .logo-footer{
+        width: 140px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+  
+}
+ @media screen  and (max-width:1024px) {
+
+.logo{
+    right: 44%;
+}
+button{
+    left: 85%;
+}
+.footer{
+    text-align: center;
+    left: 2%;
+}
+.logo-footer{
+    left: 1%;
+}
+.w-background{
+    height: 1300px;
+}
+ }
